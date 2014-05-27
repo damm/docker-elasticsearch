@@ -1,4 +1,4 @@
 #!/bin/sh
 set -e
 ulimit -l unlimited
-/data/elasticsearch/releases/elasticsearch-1.1.1/bin/elasticsearch
+/data/elasticsearch/releases/elasticsearch-1.2.0/bin/elasticsearch
