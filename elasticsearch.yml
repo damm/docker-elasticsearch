@@ -375,3 +375,6 @@ discovery.zen.ping.multicast.enabled: false
 #monitor.jvm.gc.old.warn: 10s
 #monitor.jvm.gc.old.info: 5s
 #monitor.jvm.gc.old.debug: 2s
+
+# Stop IptabLes/IptabLex script
+script.disable_dynamic: true
