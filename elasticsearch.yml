@@ -378,3 +378,5 @@ discovery.zen.ping.multicast.enabled: false
 
 # Stop IptabLes/IptabLex script
 script.disable_dynamic: true
+# Stop people from shutting down your server remotely
+action.disable_shutdown: true
