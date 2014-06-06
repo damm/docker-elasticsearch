@@ -23,3 +23,10 @@ Upgrade to 1.1.1
 ## 1.1.2
 
 Lock the memory by default; add a start script to set ```ulimit -l unlimited```
+
+## 1.2.0
+
+Add `/etc/pam.d/su` to enable limits on su
+Move to the elasticsearch user
+Upgrade to 1.2.1
+We lock memory by default; keep that in mind.
