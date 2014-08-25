@@ -9,7 +9,7 @@ ADD run.sh /run.sh
 RUN chmod +x /run.sh
 USER elasticsearch
 ENV VERSION 1.3.2
-RUN cd /data/elasticsearch/releases;wget -q https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-${VERSION}.tar.gz && tar zxf elasticsearch-${VERSION}.tar.gz && cd /data/elasticsearch; ln -s /data/elasticsearch/releases/elasticsearch-${VERSION} current 
+RUN cd /data/elasticsearch/releases;wget https://download.elasticsearch.org/elasticsearch/elasticsearch/elasticsearch-${VERSION}.tar.gz && tar zxf elasticsearch-${VERSION}.tar.gz && cd /data/elasticsearch;ln -sf /data/elasticsearch/releases/elasticsearch-${VERSION} /data/elasticsearch/current 
 ADD elasticsearch.yml /data/elasticsearch/releases/elasticsearch-${VERSION}/config/elasticsearch.yml
 RUN /data/elasticsearch/current/bin/plugin -i mobz/elasticsearch-head
 EXPOSE 9200
