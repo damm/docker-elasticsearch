@@ -380,3 +380,6 @@ discovery.zen.ping.multicast.enabled: false
 script.disable_dynamic: true
 # Stop people from shutting down your server remotely
 action.disable_shutdown: true
+#http.cors.enabled: true
+
+
