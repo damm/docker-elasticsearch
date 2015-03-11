@@ -1,8 +1,6 @@
 Elasticsearch
 =========
 
-[![Support via Gratipay](https://cdn.rawgit.com/gratipay/gratipay-badge/2.3.0/dist/gratipay.png)](https://gratipay.com/damm/)
-
 This image is one way to deploy Logstash using [Docker][docker].  It uses [damm/java][dammjava] to provide Java.
 
 Usage
