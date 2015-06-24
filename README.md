@@ -15,7 +15,7 @@ docker run -d -name elasticsearch -p 9200:9200 -v /data/elasticsearch/shared:/da
 + More Memory?
 
 ```shell
-docker run -d -name elasticsearch -p 9200:9200 -v /data/elasticsearch/shared:/data/elasticsearch/shared -e ES_MIN_MEM=512m -e ES_MAXM_MEM=4g damm/elasticsearch
+docker run -d -name elasticsearch -p 9200:9200 -v /data/elasticsearch/shared:/data/elasticsearch/shared -e ES_MIN_MEM=512m -e ES_MAX_MEM=4g damm/elasticsearch
 ```
 
 
