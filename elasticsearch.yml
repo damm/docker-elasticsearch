@@ -153,7 +153,7 @@ index.number_of_replicas: 0
 # space on creation. For example:
 #
 path.data: /data/elasticsearch/shared
-
+path.repo: /data/elasticsearch/shared
 # Path to temporary files:
 #
 #path.work: /path/to/work
