@@ -1,3 +1,3 @@
 #!/bin/sh
 set -e
-su - elasticsearch -c '/data/elasticsearch/current/bin/elasticsearch'
+su -m - elasticsearch -c '/data/elasticsearch/current/bin/elasticsearch'
