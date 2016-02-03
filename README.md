@@ -1,7 +1,10 @@
+### Build status
+
+[![Build Status](https://travis-ci.org/damm/docker-elasticsearch.png)](https://travis-ci.org/damm/docker-elasticsearch)
 Elasticsearch
 =========
 
-This image is one way to deploy Logstash using [Docker][docker].  It uses [damm/java][dammjava] to provide Java.
+This image is one way to deploy Logstash using [Docker][docker].  It uses [damm/java8][dammjava8] to provide Java.
 
 Usage
 ======
@@ -21,6 +24,7 @@ docker run -d -name elasticsearch -p 9200:9200 -v /data/elasticsearch/shared:/da
 
 [docker]: http://www.docker.io
 [dammjava]: http://github.com/damm/docker-java
+[dammjava8]: http://github.com/damm/docker-java8
 [dammelasticsearch]: http://github.com/damm/docker-elasticsearch
 [dammredis]: http://github.com/damm/damm-redis
 
